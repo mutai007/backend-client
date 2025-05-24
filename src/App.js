@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 import './App.css';
 
-const socket = io('http://localhost:3001');
+const socket = io('backend-client-1gq4e8rzp-johns-projects-70a0c201.vercel.app');
 
 function formatTime(timestamp) {
   const date = new Date(timestamp);
